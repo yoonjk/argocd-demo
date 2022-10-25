@@ -1,0 +1,3 @@
+kustomize:
+  images:
+  - docker.io/nexweb1/nginx:0.1.2

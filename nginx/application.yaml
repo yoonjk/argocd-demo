@@ -9,7 +9,7 @@ spec:
     server: 'https://kubernetes.default.svc'
   project: default
   source:
-    path: kucstomize-nginx
+    path: kustomize-nginx
     repoURL: 'https://github.com/yoonjk/argocd-demo.git
     targetRevision: image-updater
   syncPolicy:

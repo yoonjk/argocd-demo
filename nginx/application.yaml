@@ -10,9 +10,10 @@ spec:
   project: default
   source:
     path: kustomize-nginx
-    repoURL: 'https://github.com/yoonjk/argocd-demo.git
+    repoURL: 'https://github.com/yoonjk/argocd-demo.git'
     targetRevision: image-updater
   syncPolicy:
     automated:
       prune: true
       selfHeal: true
+

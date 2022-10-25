@@ -15,5 +15,5 @@ spec:
         app: nginx
     spec:
       containers:
-      - image: nexweb1/nginx:0.0.1
+      - image: docker.io/nexweb1/nginx:0.0.1
         name: nginx
